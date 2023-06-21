@@ -1,0 +1,23 @@
+.PageToolbar {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 46px;
+}
+.PageToolbar__sx {
+  max-width: 30%;
+  min-width: 10%;
+}
+
+.PageToolbar__title {
+  max-width: 30%;
+  font-weight: 700;
+}
+
+.PageToolbar__dx {
+  max-width: 30%;
+  min-width: 10%;
+}

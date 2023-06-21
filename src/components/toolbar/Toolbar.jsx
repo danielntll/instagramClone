@@ -5,10 +5,13 @@ import Igtv from "../../assets/igtv.png"
 import messages from "../../assets/messages.png"
 
 import Button from '../button/Button';
+import { useNavigate } from 'react-router-dom'
 
 
 const Toolbar = () => {
   // V ----------------------
+  const navigate = useNavigate();
+
   // C ----------------------
   const handleOpenCamera = () => {
     console.log("Open camera");
@@ -19,7 +22,8 @@ const Toolbar = () => {
   }
 
   const handleOpenMessages = () => {
-    console.log("Open messages")
+    console.log("Open messages");
+    return navigate("/chat")
   }
 
   // R ----------------------

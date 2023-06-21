@@ -1,13 +1,17 @@
 import './Button.css'
 
-const Button = ({ imgUrl, onClickEv, notification = false, isSelected = false }) => {
+const Button = ({ imgUrl, text, styleClass = "", onClickEv, notification = false, isSelected = false }) => {
   // V ----------------------
   // C ----------------------
 
   // R ----------------------
   return (
-    <div className="Button" onClick={() => onClickEv()}>
-      <img className='Button__img' src={isSelected ? imgUrl[1] : imgUrl[0]} alt="button img" />
+    <div className={"Button " + styleClass} onClick={() => onClickEv()}>
+      {imgUrl ?
+        <img className='Button__img' src={isSelected ? imgUrl[1] : imgUrl[0]} alt="button img" />
+        : null
+      }
+      {text ? text : null}
       {notification ?
         <>
           <div className="Button__notification"></div>

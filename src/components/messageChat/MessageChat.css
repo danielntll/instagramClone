@@ -1,0 +1,9 @@
+.MessageChat {
+  background-color: #c5c5c5;
+  padding: 8px;
+  border-radius: 8px;
+  width: 100%;
+}
+.MessageChat p {
+  margin: 0;
+}
