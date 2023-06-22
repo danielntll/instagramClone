@@ -1,0 +1,85 @@
+.Profile {
+  overflow: hidden;
+}
+.Profile__header {
+}
+.Profile__content {
+  height: calc(100vh - var(--header-h) - var(--tabs-h));
+  overflow: scroll;
+}
+.Profile__tabs {
+}
+
+.Profile__content__header {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.Profile__content__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Profile__content__info__counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Profile__content__info__counter__number {
+  margin: 0;
+  font-weight: 700;
+}
+.Profile__content__info__counter__desc {
+  margin: 0;
+  font-size: 14px;
+}
+
+.Profile__content__bio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Profile__content__bio__name {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.Profile__content__bio__description {
+  margin: 0;
+  font-size: 14px;
+}
+.Profile__content__cta__container {
+  margin-top: 20px;
+  margin-bottm: 20px;
+}
+.Profile__content__cta {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #c2c2c2;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.Profile__content__posts {
+}
+
+.Profile__content__posts__header {
+  border-top: 1px solid #c2c2c2;
+  height: 44px;
+  margin-top: 15px;
+}
+
+.Profile__content__posts__grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+}

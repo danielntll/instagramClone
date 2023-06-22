@@ -1,0 +1,78 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.Login__logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login__logo img {
+  width: 200px;
+}
+
+.Login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 10px;
+  width: 100%;
+}
+.Login__input {
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  height: 44px;
+  min-width: 300px;
+  border: 1px solid #a8a8a8;
+  color: var(--c-black);
+}
+.Login__form__forgotPass {
+  width: 325px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.Login__form__forgotPass__btn {
+  color: #3797ef;
+  font-weight: 500;
+  font-size: 12px;
+}
+.Login__form__error {
+  color: #e43b3b;
+}
+
+.Login__button {
+  background-color: #3797ef;
+  color: var(--c-white);
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Login__or {
+  margin-top: 30px;
+  width: 300px;
+}
+
+.Login__SignUp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Login__SignUp p {
+  color: #8f8f8f;
+}
+
+.Login__SignUp__btn {
+  color: #3797ef;
+}

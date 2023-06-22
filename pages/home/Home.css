@@ -1,0 +1,10 @@
+.Home {
+  height: 100vh;
+  overflow: hidden;
+}
+.Home__content {
+  height: calc(100vh - var(--header-h) - var(--tabs-h));
+  overflow: scroll;
+}
+.Home__tabs {
+}

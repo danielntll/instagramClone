@@ -1,0 +1,10 @@
+.Search {
+}
+.Search__header {
+}
+.Search__content {
+  height: calc(100vh - var(--header-h) - var(--tabs-h));
+  overflow: scroll;
+}
+.Search__tabs {
+}

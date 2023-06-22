@@ -1,0 +1,10 @@
+.Upload {
+}
+.Upload__header {
+}
+.Upload__content {
+  height: calc(100vh - var(--header-h) - var(--tabs-h));
+  overflow: scroll;
+}
+.Upload__tabs {
+}

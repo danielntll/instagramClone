@@ -1,0 +1,11 @@
+.Tabs {
+  position: sticky;
+  bottom: 0;
+  height: var(--tabs-h);
+  width: 100vw;
+  background-color: var(--c-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

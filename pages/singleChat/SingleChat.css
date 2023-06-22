@@ -1,0 +1,43 @@
+:root {
+  --chat-heigth: 70px;
+}
+
+.SingleChat {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.SingleChat__toolbar {
+  position: fixed;
+  width: calc(100%);
+}
+.SingleChat__chat {
+  padding: 0 8px 0 8px;
+  min-height: calc(100vh - var(--chat-heigth));
+  margin-top: 50px;
+  margin-bottom: var(--chat-heigth);
+}
+
+.SingleChat__chat__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: var(--chat-heigth);
+  width: 100%;
+}
+
+.SingleChat__chat__content__message {
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.SingleChat__footer {
+  width: 100%;
+  height: var(--chat-heigth);
+  background-color: aquamarine;
+  position: fixed;
+  bottom: 0;
+}

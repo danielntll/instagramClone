@@ -1,0 +1,16 @@
+.Likes {
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+.Likes__header {
+}
+.Likes__content {
+  height: calc(100vh - var(--header-h) - var(--tabs-h));
+  overflow: scroll;
+}
+.Likes__tabs {
+}
+
+.Likes__content__title {
+}
